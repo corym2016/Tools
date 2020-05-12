@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="Style1.css">
         <style>
           #AboutHeader {
-            color: black;
+            color: red;
           }
         </style>
     </head>
@@ -14,5 +14,30 @@
         <p>
           <a href="https://corym2016.github.io/Tools/page1.html">Home</a>
         </p>
+
+      <form>
+
+        <div>
+          <input name="Username" type="text" placeholder="Username">
+          <input name="Password" type="password" placeholder="Password">
+        </div>
+
+        <div>
+          Favorite color?
+          <input name="color" type="radio" value="red"> Red
+          <input name="color" type="radio" value="green"> Green
+          <input name="color" type="radio" value="blue"> Blue
+          <input name="color" type="radio" value="other"> Other
+        </div>
+
+        <div>
+          <input name="country" list="countries" placeholder="Country">
+          <datalist id="countries">
+            <option value="America">
+            <option value="Germany">
+        </div>
+
+      </form>
+
     </body>
 </html>
